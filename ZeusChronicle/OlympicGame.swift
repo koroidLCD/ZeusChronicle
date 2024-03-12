@@ -2,6 +2,35 @@ import UIKit
 import SnapKit
 import Lottie
 
+import SwiftUI
+
+class GameViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+            let vc = UIHostingController(rootView: ContentView(delegate: self))
+            
+            let swiftuiView = vc.view!
+            swiftuiView.frame = view.frame
+            addChild(vc)
+            view.addSubview(swiftuiView)
+            vc.didMove(toParent: self)
+        
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return .allButUpsideDown
+        } else {
+            return .all
+        }
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+}
+
 class OlympicGameVC: UIViewController {
     
     var selected = -1

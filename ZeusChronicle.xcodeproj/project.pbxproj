@@ -14,7 +14,6 @@
 		525F90AC2BA08BCF0006E87F /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F90A52BA08BCF0006E87F /* Row.swift */; };
 		525F90AD2BA08BCF0006E87F /* OlympicGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F90A62BA08BCF0006E87F /* OlympicGame.swift */; };
 		525F90AE2BA08BCF0006E87F /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F90A72BA08BCF0006E87F /* StartVC.swift */; };
-		525F90AF2BA08BCF0006E87F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F90A82BA08BCF0006E87F /* GameViewController.swift */; };
 		525F90B02BA08BCF0006E87F /* Victoire.otf in Resources */ = {isa = PBXBuildFile; fileRef = 525F90A92BA08BCF0006E87F /* Victoire.otf */; };
 		525F90B22BA08BCF0006E87F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F90AB2BA08BCF0006E87F /* MenuVC.swift */; };
 		525F90B72BA094620006E87F /* lightning.json in Resources */ = {isa = PBXBuildFile; fileRef = 525F90B52BA094620006E87F /* lightning.json */; };
@@ -36,7 +35,6 @@
 		525F90A52BA08BCF0006E87F /* Row.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
 		525F90A62BA08BCF0006E87F /* OlympicGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OlympicGame.swift; sourceTree = "<group>"; };
 		525F90A72BA08BCF0006E87F /* StartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
-		525F90A82BA08BCF0006E87F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = "../../../Zeus-Chronicles/Zeus-Chronicles/Levels/GameViewController.swift"; sourceTree = "<group>"; };
 		525F90A92BA08BCF0006E87F /* Victoire.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Victoire.otf; sourceTree = "<group>"; };
 		525F90AB2BA08BCF0006E87F /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		525F90B32BA08BF30006E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				525F90A42BA08B8B0006E87F /* ZeusChronicle.entitlements */,
 				525F908D2BA08B6C0006E87F /* AppDelegate.swift */,
 				525F90972BA08B6C0006E87F /* Main.storyboard */,
-				525F90A82BA08BCF0006E87F /* GameViewController.swift */,
 				525F90A72BA08BCF0006E87F /* StartVC.swift */,
 				525F90AB2BA08BCF0006E87F /* MenuVC.swift */,
 				525F90B52BA094620006E87F /* lightning.json */,
@@ -240,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525F90AF2BA08BCF0006E87F /* GameViewController.swift in Sources */,
 				525F90AD2BA08BCF0006E87F /* OlympicGame.swift in Sources */,
 				525F90AC2BA08BCF0006E87F /* Row.swift in Sources */,
 				525F90BE2BA0BFE50006E87F /* infoVC.swift in Sources */,
